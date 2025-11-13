@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "romaji2kanji",
+  "version": "${version}",
+  "name": "romaji2kanji",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "LGPL-3.0",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "com.yakimaguro.romaji2kanji.RomajiMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
